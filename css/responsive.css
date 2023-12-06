@@ -1,0 +1,1741 @@
+@media (min-width: 1400px) {
+  /* ><><><><home page part start <><><<><<>< */
+  /* ===banner part start === */
+  #banner img {
+    margin-top: 30px;
+  }
+
+  /* ===banner part end === */
+
+  /* ===work part start === */
+  #work article {
+    margin: 10px 0;
+  }
+
+  /* ===work part end === */
+
+  /* ===project part start === */
+  #project .project_main {
+    margin-top: 30px;
+  }
+
+  .headingAncor {
+    margin-right: 30px;
+  }
+
+  /* ===project part end === */
+
+  /* ===blog part :start==== */
+  #blog {
+    padding-bottom: 65px;
+    text-align: center;
+  }
+
+  #blog .card {
+    margin-top: 32px;
+  }
+
+  /* ===blog part end==== */
+
+  /* ><><><><home page part end <><><<><<>< */
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* ><><><><home page part start <><><<><<>< */
+  /* ===banner part start === */
+  #banner img {
+    margin-top: 30px;
+  }
+
+  /* ===banner part end === */
+
+  /* ===work part start === */
+  #work article {
+    margin: 10px 0;
+  }
+
+  /* ===work part end === */
+
+  /* ===project part start === */
+  #project .project_main {
+    margin-top: 30px;
+  }
+
+  .headingAncor {
+    margin-right: 30px;
+  }
+
+  /* ===project part end === */
+
+  /* ===blog part :start==== */
+  #blog {
+    padding-bottom: 65px;
+    text-align: center;
+  }
+
+  #blog .card {
+    margin-top: 32px;
+  }
+
+  /* ===blog part end==== */
+
+  /* ><><><><home page part end <><><<><<>< */
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* ===common class start === */
+  .banner_heading {
+    font-size: 46px;
+    line-height: 68px;
+  }
+
+  .common_heading {
+    font-size: 44px;
+    line-height: 58px;
+  }
+
+  .third_heading {
+    font-size: 34px;
+    line-height: 52px;
+  }
+
+  /* ===common class end === */
+
+  /* ><><><><home page part start <><><<><<>< */
+  /* ===banner part start === */
+  #banner {
+    padding: 190px 0 100px 0;
+  }
+
+  #banner img {
+    margin-top: 30px;
+  }
+
+  /* ===banner part end === */
+
+  /* ===work part start === */
+  #work {
+    padding: 80px 0;
+  }
+
+  #work article {
+    margin: 20px 0;
+  }
+
+  /* ===work part end === */
+
+  /* ===project part start === */
+  #project .project_main {
+    margin-top: 30px;
+  }
+
+  #project {
+    padding: 50px 0;
+  }
+
+  .headingAncor {
+    margin-right: 30px;
+  }
+
+  #project .project_main .overlay1 {
+    width: 100%;
+    padding: 0 0 0px 12px;
+    align-items: center;
+  }
+
+  #project .project_main .overlay p {
+    margin: 9px 0 5px 0;
+  }
+
+  #project .project_main .overlay h6 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  #project .project_main .img {
+    margin: 12px 0;
+  }
+
+  #project .project_main .overlay2 {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ===project part end === */
+
+  /* ===features part start === */
+  #features {
+    padding: 60px 0;
+  }
+
+  #features .card {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  #features .item_bottom {
+    margin-top: 0;
+  }
+
+  /* ===features part end === */
+
+  /* ===review part start===  */
+  #review {
+    padding: 10px 0 10px 0;
+    text-align: center;
+  }
+
+  #review .left {
+    margin-bottom: 34px;
+  }
+
+  #review article h5 {
+    font-size: 24px;
+    margin-bottom: 48px;
+  }
+
+  #review article .icons .icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  #review article .icons .icon i {
+    line-height: 40px;
+  }
+
+  #review .review_slider .arrow {
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+  }
+
+  #review .review_slider .nextArrow {
+    right: 6%;
+  }
+  #review .review_slider .prevArrow {
+    right: 13%;
+  }
+
+  /* ===review part end===  */
+
+  /* ===question part start === */
+  #question {
+    padding: 55px 0;
+    text-align: center;
+  }
+
+  #question .left {
+    margin-bottom: 35px;
+  }
+
+  /* ===question part end === */
+
+  /* ===inquiry part start === */
+  #inquiry {
+    padding-bottom: 95px;
+  }
+
+  #inquiry .inquiryMain .overlay {
+    padding: 96px 70px 96px 70px;
+  }
+
+  #inquiry .right {
+    padding: 96px 15px 55px 15px;
+  }
+
+  #inquiry .right h5 {
+    font-size: 27px;
+  }
+
+  #inquiry .right form button {
+    font-size: 16px;
+    padding: 9px 30px;
+    width: auto;
+  }
+
+  /* ===inquiry part end === */
+
+  /* ===blog part :start==== */
+  #blog {
+    padding-bottom: 65px;
+    text-align: center;
+  }
+
+  #blog .card {
+    margin-top: 32px;
+  }
+
+  /* ===blog part end==== */
+
+  /* ===contact part start === */
+  #contact {
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  #contact .social_icon {
+    justify-content: center;
+  }
+
+  #contact .email_numbers {
+    padding: 17px 20px;
+    background-color: #fcd980;
+    display: flex;
+    gap: 18px;
+  }
+
+  /* ===contact part end === */
+  #footer main {
+    align-items: center;
+  }
+  /* ===contact part start === */
+  #contact {
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  #contact .social_icon {
+    justify-content: center;
+  }
+
+  #contact .email_numbers {
+    padding: 17px 20px;
+  }
+
+  /* ===contact part end === */
+
+  #form {
+    padding-bottom: 50px;
+  }
+  /* ===footer part start === */
+
+  /* =====about page start ====== */
+  #pSolve-mission {
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  #benefit {
+    padding: 60px 0;
+    text-align: center;
+  }
+  #process .content article {
+    padding: 35px 0;
+    text-align: center;
+  }
+
+  #benefit .card {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .logo_slider {
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+  }
+
+  #process .circle_dots {
+    justify-content: center;
+  }
+
+  #benefit .bottom_part {
+    margin: 47px 0 !important;
+  }
+
+  /* team part start  */
+  #team {
+    padding: 63px 0;
+  }
+  /* team part end */
+  #process {
+    padding-bottom: 30px;
+  }
+  /* =====about page end ====== */
+
+  /* blog page start  */
+  #blog_item {
+    padding: 58px 0;
+    text-align: center;
+  }
+
+  #blog_item .blog_item_body {
+    margin-top: 15px;
+  }
+
+  #blog_item .blog_item_body .card {
+    margin: 25px 0;
+  }
+
+  /* blog page end  */
+
+  #do_part .keyword {
+    margin-top: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* features page start */
+  .heading3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .featuresMission .item {
+    padding: 45px 0;
+    /*! padding-bottom: 0; */
+  }
+  /* features page end */
+
+  /* pricing page start  */
+  #pricing {
+    padding-bottom: 30px;
+  }
+  #pricing .cards .item .button a {
+    padding: 16px 37px;
+  }
+
+  #pricing .cards .item .button a {
+    margin-top: 16px;
+  }
+
+  #pricing .cards .item {
+    margin-top: 20px;
+  }
+  /* pricing page end  */
+
+  /* ===read book page start === */
+  #read_block {
+    padding-bottom: 60px;
+  }
+  /* ===read book page end === */
+
+  /* ===work page start === */
+  #workPortfolio {
+    padding-bottom: 50px;
+  }
+
+  #workDesign {
+    padding: 50px 0;
+  }
+
+  #workDesign .tab-content .card {
+    margin-top: 12px;
+  }
+
+  #build {
+    padding-bottom: 70px;
+  }
+
+  /* ===work page end === */
+
+  /* ===footer part end === */
+
+  /* ><><><><home page part end <><><<><<>< */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* ===common class start === */
+  .banner_heading {
+    font-size: 36px;
+    line-height: 60px;
+  }
+
+  .common_heading {
+    font-size: 34px;
+    line-height: 54px;
+  }
+
+  .third_heading {
+    font-size: 30px;
+    line-height: 48px;
+  }
+
+  /* ===common class end === */
+
+  /* ><><><><home page part start <><><<><<>< */
+
+  /* ===navbar part start === */
+  #navbar .toggler_icon i {
+    font-size: 25px;
+    color: white;
+  }
+
+  #navbar .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  #navbar ul li a {
+    padding: 13px 16px;
+  }
+
+  /* ===navbar part end === */
+
+  /* ===banner part start === */
+  #banner {
+    padding: 150px 0 100px 0;
+    text-align: center;
+  }
+
+  #banner .button a {
+    padding: 9px 25px;
+  }
+
+  #banner .button {
+    display: flex;
+    justify-content: center;
+  }
+
+  #banner .button a i {
+    right: 4%;
+  }
+
+  #banner img {
+    margin-top: 30px;
+  }
+
+  /* ===banner part end === */
+
+  /* ===work part start === */
+  #work {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  #work .left {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  #work article {
+    margin: 20px 0;
+  }
+
+  /* ===work part end === */
+
+  /* ===project part start === */
+  #project .project_main {
+    margin-top: 30px;
+  }
+
+  #project {
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  #project .project_main .overlay1 {
+    width: 100%;
+    padding: 0 0 0px 12px;
+    align-items: center;
+  }
+
+  #project .project_main .overlay p {
+    margin: 9px 0 5px 0;
+  }
+
+  #project .project_main .overlay h6 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  #project .project_main .img {
+    margin: 12px 0;
+  }
+
+  #project .project_main .overlay2 {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ===project part end === */
+
+  /* ===features part start === */
+  #features {
+    padding: 60px 0;
+  }
+
+  #features .card {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  #features .item_bottom {
+    margin-top: 0;
+  }
+
+  /* ===features part end === */
+
+  /* ===review part start===  */
+  #review {
+    padding: 10px 0 10px 0;
+    text-align: center;
+  }
+
+  #review .left {
+    margin-bottom: 34px;
+  }
+
+  #review article h5 {
+    font-size: 24px;
+    margin-bottom: 48px;
+  }
+
+  #review article .icons .icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  #review article .icons .icon i {
+    line-height: 40px;
+  }
+  #review .review_slider .arrow {
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+  }
+
+  #review .review_slider .nextArrow {
+    right: 6%;
+  }
+  #review .review_slider .prevArrow {
+    right: 18%;
+  }
+  /* ===review part end===  */
+
+  /* ===question part start === */
+  #question {
+    padding: 55px 0;
+    text-align: center;
+  }
+
+  #question .left {
+    margin-bottom: 35px;
+  }
+
+  /* ===question part end === */
+
+  /* ===inquiry part start === */
+  #inquiry {
+    padding-bottom: 80px;
+  }
+
+  #inquiry .inquiryMain .overlay {
+    padding: 96px 20px 96px 20px;
+  }
+
+  #inquiry .right {
+    padding: 55px 15px 55px 15px;
+  }
+
+  #inquiry .right h5 {
+    font-size: 27px;
+  }
+
+  #inquiry .right form button {
+    font-size: 16px;
+    padding: 9px 30px;
+    width: auto;
+  }
+
+  /* ===inquiry part end === */
+
+  /* ===blog part :start==== */
+  #blog {
+    padding-bottom: 65px;
+    text-align: center;
+  }
+
+  #blog .card {
+    margin-top: 32px;
+  }
+
+  /* ===blog part end==== */
+
+  /* ===contact part start === */
+  #contact {
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  #contact .social_icon {
+    justify-content: center;
+  }
+
+  #contact .email_numbers {
+    padding: 17px 20px;
+  }
+
+  /* ===contact part end === */
+
+  #footer main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #form {
+    padding-bottom: 50px;
+  }
+  /* ===footer part start === */
+
+  /* =====about page start ====== */
+  #pSolve-mission {
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  #benefit {
+    padding: 60px 0;
+    text-align: center;
+  }
+  #process .content article {
+    padding: 35px 0;
+    text-align: center;
+  }
+
+  #benefit .card {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .logo_slider {
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+  }
+
+  #process .circle_dots {
+    justify-content: center;
+  }
+
+  #benefit .bottom_part {
+    margin: 47px 0 !important;
+  }
+
+  /* team part start  */
+  #team {
+    padding: 63px 0;
+  }
+  /* team part end */
+  /* =====about page end ====== */
+
+  /* blog page start  */
+  #blog_item {
+    padding: 58px 0;
+    text-align: center;
+  }
+
+  #blog_item .blog_item_body {
+    margin-top: 15px;
+  }
+
+  #blog_item .blog_item_body .card {
+    margin: 25px 0;
+  }
+
+  /* blog page end  */
+
+  /* features page start */
+  .heading3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .featuresMission .item {
+    padding: 45px 0;
+    /*! padding-bottom: 0; */
+  }
+  /* features page end */
+
+  /* pricing page start  */
+  #pricing {
+    padding-bottom: 30px;
+  }
+  #pricing .cards .item .button a {
+    padding: 16px 56px;
+  }
+
+  #pricing .cards .item .button a {
+    margin-top: 16px;
+  }
+
+  #pricing .cards .item {
+    margin-top: 20px;
+  }
+  /* pricing page end  */
+
+  /* ===read book page start === */
+  #read_block {
+    padding-bottom: 60px;
+  }
+  /* ===read book page end === */
+
+  /* ===work page start === */
+  #workPortfolio {
+    padding-bottom: 50px;
+  }
+
+  #workDesign {
+    padding: 50px 0;
+  }
+
+  #workDesign .tab-content .card {
+    margin-top: 12px;
+  }
+
+  #build {
+    padding-bottom: 70px;
+  }
+
+  /* ===work page end === */
+  /* ><><><><home page part end <><><<><<>< */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* ===common class start === */
+  .banner_heading {
+    font-size: 32px;
+    line-height: 60px;
+  }
+
+  .common_heading {
+    font-size: 25px;
+    line-height: 48px;
+  }
+
+  .third_heading {
+    font-size: 30px;
+    line-height: 48px;
+  }
+
+  /* ===common class end === */
+
+  /* ><><><><home page part start <><><<><<>< */
+
+  /* ===navbar part start === */
+  #navbar .toggler_icon i {
+    font-size: 25px;
+    color: white;
+  }
+
+  #navbar .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  #navbar ul li a {
+    padding: 13px 16px;
+  }
+
+  /* ===navbar part end === */
+
+  /* ===banner part start === */
+  #banner {
+    padding: 150px 0 100px 0;
+    text-align: center;
+  }
+
+  #banner .button a {
+    padding: 9px 21px;
+  }
+
+  #banner .button {
+    display: flex;
+    justify-content: center;
+  }
+
+  #banner .button a i {
+    right: -2%;
+  }
+
+  #banner img {
+    margin-top: 30px;
+  }
+
+  /* ===banner part end === */
+
+  /* ===work part start === */
+  #work {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  #work .left {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  #work article {
+    margin: 20px 0;
+  }
+
+  /* ===work part end === */
+
+  /* ===project part start === */
+  #project .project_main {
+    margin-top: 30px;
+  }
+
+  #project {
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  #project .project_main .overlay1 {
+    width: 100%;
+    padding: 0 0 0px 12px;
+    align-items: center;
+  }
+
+  #project .project_main .overlay p {
+    margin: 9px 0 5px 0;
+  }
+
+  #project .project_main .overlay h6 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  #project .project_main .img {
+    margin: 20px 0;
+  }
+
+  /* ===project part end === */
+
+  /* ===features part start === */
+  #features {
+    padding: 60px 0;
+  }
+
+  #features .card {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  #features .item_bottom {
+    margin-top: 0;
+  }
+
+  /* ===features part end === */
+
+  /* ===review part start===  */
+  #review {
+    padding: 10px 0 10px 0;
+    text-align: center;
+  }
+
+  #review .left {
+    margin-bottom: 34px;
+  }
+
+  #review article h5 {
+    font-size: 24px;
+    margin-bottom: 48px;
+  }
+
+  #review article .icons .icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  #review article .icons .icon i {
+    line-height: 40px;
+  }
+  #review .review_slider .arrow {
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+  }
+
+  #review .review_slider .nextArrow {
+    right: 6%;
+  }
+  #review .review_slider .prevArrow {
+    right: 15%;
+  }
+  /* ===review part end===  */
+
+  /* ===question part start === */
+  #question {
+    padding: 55px 0;
+    text-align: center;
+  }
+
+  #question .left {
+    margin-bottom: 35px;
+  }
+
+  /* ===question part end === */
+
+  /* ===inquiry part start === */
+  #inquiry {
+    padding-bottom: 60px;
+  }
+
+  #inquiry .inquiryMain {
+    height: auto;
+  }
+
+  #inquiry .inquiryMain .overlay {
+    padding: 96px 20px 96px 20px;
+  }
+
+  #inquiry .right {
+    padding: 55px 15px 55px 15px;
+    height: auto;
+  }
+
+  #inquiry .right h5 {
+    font-size: 27px;
+  }
+
+  #inquiry .right form button {
+    font-size: 16px;
+    padding: 9px 30px;
+    width: auto;
+  }
+
+  /* ===inquiry part end === */
+
+  /* ===blog part :start==== */
+  #blog {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  #blog .card {
+    margin-top: 32px;
+  }
+
+  /* ===blog part end==== */
+
+  /* ===contact part start === */
+  #contact {
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  #contact .social_icon {
+    justify-content: center;
+  }
+
+  #contact .email_numbers {
+    margin-top: 30px;
+  }
+
+  /* ===contact part end === */
+  #footer main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* ===footer part start === */
+
+  /* ===footer part end === */
+
+  /* ><><><><home page part end <><><<><<>< */
+
+  /* =====about page start ====== */
+  #pSolve-mission {
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  #benefit {
+    padding: 60px 0;
+    text-align: center;
+  }
+  #process .content article {
+    padding: 35px 0;
+    text-align: center;
+  }
+
+  #benefit .card {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .logo_slider {
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+  }
+
+  #process .circle_dots {
+    justify-content: center;
+  }
+
+  #benefit .bottom_part {
+    margin: 47px 0 !important;
+  }
+
+  /* team part start  */
+  #team {
+    padding: 63px 0;
+  }
+  /* team part end */
+  /* =====about page end ====== */
+
+  /* blog page start  */
+  #blog_item {
+    padding: 58px 0;
+    text-align: center;
+  }
+
+  #blog_item .blog_item_body {
+    margin-top: 15px;
+  }
+
+  #blog_item .blog_item_body .card {
+    margin: 25px 0;
+  }
+
+  /* blog page end  */
+
+  /* features page start */
+  .heading3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .featuresMission .item {
+    padding: 45px 0;
+    padding-bottom: 0;
+  }
+  /* features page end */
+
+  /* pricing page start  */
+  #pricing {
+    padding-bottom: 30px;
+  }
+  #pricing .cards .item .button a {
+    margin-top: 16px;
+  }
+  /* pricing page end  */
+
+  /* ===read book page start === */
+  #read_block {
+    padding-bottom: 60px;
+  }
+  /* ===read book page end === */
+
+  /* ===work page start === */
+  #workPortfolio {
+    padding-bottom: 50px;
+  }
+
+  #workDesign {
+    padding: 50px 0;
+  }
+
+  #workDesign .tab-content .card {
+    margin-top: 12px;
+  }
+
+  #build {
+    padding-bottom: 70px;
+  }
+  /* ===work page end === */
+}
+
+@media (max-width: 575.98px) {
+  /* ===common class start === */
+  .heading3 {
+    font-size: 25px;
+    line-height: 38px;
+  }
+
+  .banner_heading {
+    font-size: 30px;
+    line-height: 49px;
+  }
+
+  .common_heading {
+    font-size: 22px;
+    line-height: 42px;
+  }
+
+  .third_heading {
+    font-size: 23px;
+    line-height: 32px;
+  }
+
+  .paragraph {
+    line-height: 24px;
+  }
+
+  /* ===common class end === */
+
+  /* ><><><><home page part start <><><<><<>< */
+
+  /* ===navbar part start === */
+  #navbar .toggler_icon i {
+    font-size: 25px !important;
+    color: white !important;
+  }
+
+  #navbar .navbar-toggler {
+    border: none !important;
+  }
+
+  #navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+
+  #navbar .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+
+  /* ===navbar part end === */
+
+  /* ===banner part start === */
+  #banner {
+    padding: 150px 0 100px 0;
+    text-align: center;
+  }
+
+  #banner .button a {
+    padding: 9px 21px;
+  }
+
+  #banner .button a:first-child {
+    margin-right: 7px;
+  }
+
+  #banner .button {
+    display: flex;
+    justify-content: center;
+  }
+
+  #banner .button a i {
+    right: 0;
+    /*! font-size: 14px; */
+  }
+
+  #banner img {
+    margin-top: 30px;
+  }
+
+  /* ===banner part end === */
+
+  /* ===work part start === */
+  #work {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  #work .left {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  #work article {
+    margin: 20px 0;
+  }
+  #work article h4 {
+    font-size: 24px;
+    margin: 9px 0 2px 0;
+  }
+
+  /* ===work part end === */
+
+  /* ===project part start === */
+  #project .project_main {
+    margin-top: 30px;
+  }
+
+  #project {
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  #project .project_main .overlay1 {
+    width: 100%;
+    padding: 0 0 0px 12px;
+    align-items: center;
+  }
+
+  #project .project_main .overlay p {
+    margin: 9px 0 5px 0;
+  }
+
+  #project .project_main .overlay h6 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  #project .project_main .img {
+    margin: 20px 0;
+  }
+
+  /* ===project part end === */
+
+  /* ===features part start === */
+  #features {
+    padding: 60px 0;
+  }
+
+  #features .card {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  #features .item_bottom {
+    margin-top: 0;
+  }
+  #features .card-title {
+    font-size: 22px;
+  }
+  /* ===features part end === */
+
+  /* ===review part start===  */
+  #review {
+    padding: 10px 0 10px 0;
+    text-align: center;
+  }
+
+  #review .left {
+    margin-bottom: 34px;
+  }
+
+  #review article h5 {
+    font-size: 22px;
+    margin-bottom: 21px;
+    line-height: 32px;
+  }
+
+  #review article .icons .icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  #review article .icons .icon i {
+    line-height: 40px;
+  }
+
+  #review .review_slider .arrow {
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+  }
+
+  #review .review_slider .nextArrow {
+    right: 6%;
+  }
+  #review .review_slider .prevArrow {
+    right: 18%;
+  }
+
+  /* ===review part end===  */
+
+  /* ===question part start === */
+  #question {
+    padding: 55px 0;
+    text-align: center;
+  }
+
+  #question .left {
+    margin-bottom: 35px;
+  }
+
+  /* ===question part end === */
+
+  /* ===inquiry part start === */
+  #inquiry {
+    padding-bottom: 60px;
+    text-align: center;
+  }
+
+  #inquiry .inquiryMain {
+    height: auto;
+  }
+
+  #inquiry .inquiryMain .overlay {
+    padding: 96px 20px 96px 20px;
+  }
+
+  #inquiry .right {
+    padding: 55px 15px 55px 15px;
+    height: auto;
+  }
+
+  #inquiry .right h5 {
+    font-size: 27px;
+  }
+
+  #inquiry .right form button {
+    font-size: 16px;
+    padding: 9px 30px;
+    width: auto;
+  }
+
+  /* ===inquiry part end === */
+
+  /* ===blog part :start==== */
+  #blog {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  #blog .card {
+    margin-top: 32px;
+  }
+
+  /* ===blog part end==== */
+
+  /* ===contact part start === */
+  #contact {
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  #contact .content {
+    margin: 30px 0;
+  }
+
+  #contact .social_icon {
+    justify-content: center;
+  }
+
+  /* ===contact part end === */
+  #footer main {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  /* ===footer part start === */
+
+  /* ===footer part end === */
+
+  /* ><><><><home page part end <><><<><<>< */
+
+  /* ><><><about page part start ><><>< */
+
+  /* ===pSolve-mission part start === */
+
+  #pSolve-mission img {
+    margin-top: 30px;
+  }
+
+  #pSolve-mission {
+    padding: 60px 0 40px 0;
+  }
+
+  #pSolve-mission .content {
+    text-align: center;
+  }
+
+  /* ===pSolve-mission part end === */
+
+  /* ===goal focus part start === */
+  #goalFocus main {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  #goalFocus main .heading3 {
+    text-align: center !important;
+  }
+
+  /* ===goal focus part end === */
+
+  /* ====process part start ==== */
+  #process {
+    text-align: center;
+    padding: 65px 0;
+  }
+
+  #process .circle_dots {
+    justify-content: center;
+  }
+
+  #process article {
+    margin-bottom: 40px;
+  }
+
+  #process .last-child {
+    margin-bottom: 0;
+  }
+
+  #process .heading4 {
+    margin: 15px 0 8px 0;
+  }
+
+  /* ====process part end ==== */
+
+  /* ===P-solve mission part start == */
+  #pSolve-mission .secondPart {
+    margin-top: 50px;
+  }
+
+  /* ===P-solve mission part end == */
+  /* ===benefit part start === */
+  #benefit {
+    padding: 70px 0 6px 0;
+  }
+
+  #benefit .card {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  #benefit .bottom_part {
+    margin: 44px 0 !important;
+  }
+
+  #benefit .bottom_part .img {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  #benefit .bottom_part .img img {
+    width: 140px;
+  }
+
+  .logo_slider {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  /* ===benefit part end === */
+
+  /* ======team part start ======= */
+  #team {
+    padding: 59px 0;
+  }
+  #team .members article {
+    padding: 10px 0 32px 0;
+  }
+  /* ======team part end ======= */
+  /* ><><><about page part end ><><>< */
+
+  /* ><><><blog page start ><><>< */
+
+  /* =====blog item part start ==== */
+  #blog_item {
+    padding: 66px 0;
+  }
+
+  #blog_item .blog_item_body .card-body {
+    text-align: center;
+  }
+
+  #blog_item .blog_item_body .cart_btm {
+    margin-bottom: 64px;
+  }
+
+  #blog_item .blog_item_body .last_item {
+    margin-bottom: 0;
+  }
+
+  /* =====blog item part end ==== */
+
+  /* ><><><blog page end ><><>< */
+
+  /* ><><><case studies page start ><><>< */
+
+  /* ===case studies design part start === */
+  #case_studies_design {
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 90px;
+  }
+
+  #case_studies_design .case-design-bottom .main .item {
+    margin-bottom: 25px;
+  }
+
+  #case_studies_design .case-design-bottom .main {
+    padding-bottom: 0px;
+  }
+
+  /* ===case studies design part end === */
+
+  /* ===case project part start === */
+  #case_project {
+    text-align: center;
+    padding-bottom: 60px;
+  }
+
+  /* ===case project part end === */
+
+  /* ===do part start ==== */
+  #do_part {
+    padding-bottom: 70px;
+    text-align: center;
+  }
+
+  .heading-area h3 {
+    font-size: 24px;
+  }
+
+  #do_part .keyword {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  /* ===do part end ==== */
+
+  /* ===great together part start === */
+  #great_together {
+    padding-bottom: 48px;
+  }
+
+  /* ===great together part end === */
+
+  /* ><><><case studies page end ><><>< */
+
+  /* ><><><contact start ><><>< */
+
+  /* ====form part start ====== */
+  #form {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  #form .form_body {
+    padding: 30px 24px;
+    margin-top: 36px;
+  }
+
+  #form .message {
+    margin-top: 40px;
+  }
+
+  #form .form_body button {
+    padding: 10px 40px;
+  }
+
+  /* ====form part end ====== */
+
+  /* ><><><contact page end ><><>< */
+
+  /* ><><><features page start ><><>< */
+
+  /* ===psolve mission part start === */
+  .featuresMission .item {
+    padding: 0;
+  }
+
+  #pSolve-mission img {
+    margin-bottom: 30px;
+  }
+
+  /* ===psolve mission part end === */
+
+  /* ><><><features page end ><><>< */
+
+  /* ><><><pricing plan page end ><><>< */
+
+  /* =====pricing part start ====== */
+  #pricing {
+    padding: 100px 0 0 0;
+  }
+
+  #pricing .heading {
+    margin-bottom: 40px;
+  }
+
+  #pricing .cards .item {
+    padding: 30px 15px;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  #pricing .cards .item p {
+    margin: 8px 0 40px 0;
+  }
+
+  #pricing .cards .item .button a {
+    padding: 11px 45px;
+    margin-top: 36px;
+  }
+
+  /* =====pricing part end ====== */
+
+  /* ><><><pricing plan page end ><><>< */
+
+  /* ><><><privacy policy page end ><><>< */
+
+  /* ===policy details part start === */
+  #policy_details {
+    padding: 100px 0 60px 0;
+  }
+
+  #policy_details .content {
+    text-align: center;
+  }
+
+  /* ===policy details part end === */
+
+  /* ><><><privacy policy page end ><><>< */
+
+  /* ><><><read blogpage end ><><>< */
+
+  /* ===read blog part start === */
+  #read_block {
+    padding-bottom: 54px;
+  }
+
+  #read_block .content {
+    text-align: center;
+  }
+
+  /* ===read blog part end === */
+
+  /* ><><><read blog page end ><><>< */
+
+  /* ><><><work page start ><><>< */
+
+  /* ===work portfolio part start === */
+  #workPortfolio {
+    padding: 100px 0 60px 0;
+  }
+
+  /* ===work portfolio part end === */
+
+  /* ===work design part start === */
+  #workDesign {
+    padding: 60px 0;
+  }
+
+  #workDesign .ancor {
+    margin-top: 15px !important;
+  }
+
+  #workDesign .tab-content .card {
+    margin-top: 40px;
+  }
+
+  #build {
+    padding-bottom: 65px;
+  }
+  /* ===work design part end === */
+
+  /* ><><><work page end ><><>< */
+}

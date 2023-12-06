@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finsweet</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/venobox.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+    <!-- ===menu part start ==== -->
+    <nav id="navbar" class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="logo" />
+        </a>
+        <button
+          data-bs-toggle="offcanvas"
+          href="#offcanvasExample"
+          role="button"
+          aria-controls="offcanvasExample"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="toggler_icon">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+          </ul>
+          <div class="menu_button">
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <a class="offcanvas-title" id="offcanvasExampleLabel">
+          <img src="img/logo.png" alt="logo" />
+        </a>
+        <button
+          class="x_mark"
+          type="button"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="features.html">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+        </ul>
+        <div class="menu_button">
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    <!-- ===menu part end ==== -->
+
+    <!-- ===banner part start === -->
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="content">
+              <h1 class="banner_heading text_white">
+                Building stellar websites for early startups
+              </h1>
+              <p class="paragraph text_white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+              <div class="button">
+                <a class="paragraph text_white" href="#">View our work</a>
+                <a class="paragraph text_white" href="#"
+                  >View Pricing <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="img">
+              <img src="img/banner-illustration.png" alt="illustration" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===banner part end === -->
+
+    <!-- ===work part start === -->
+    <section id="work">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="left">
+              <h3 class="common_heading">How we work</h3>
+              <p class="paragraph text_blue">
+                Lorem ipsum dolor sit amet, consectetur
+                <span>adipiscing elit, sed do eiusmod tempor.</span>
+              </p>
+              <a class="ancor royal_blue" href="#"
+                >Get in touch with us
+                <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <article>
+                  <div class="img">
+                    <img src="img/pointer 1.svg" alt="svg" />
+                  </div>
+                  <h4 class="text_blue">Strategy</h4>
+                  <p class="paragraph text_blue">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam .
+                  </p>
+                </article>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <article>
+                  <div class="img">
+                    <img src="img/pointer 2.svg" alt="svg" />
+                  </div>
+                  <h4 class="text_blue">Wireframing</h4>
+                  <p class="paragraph text_blue">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam .
+                  </p>
+                </article>
+              </div>
+            </div>
+            <div class="row mt-lg-4 mt-0">
+              <div class="col-lg-6 col-sm-6">
+                <article>
+                  <div class="img">
+                    <img src="img/pointer 3.svg" alt="svg" />
+                  </div>
+                  <h4 class="text_blue">Design</h4>
+                  <p class="paragraph text_blue">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam .
+                  </p>
+                </article>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <article>
+                  <div class="img">
+                    <img src="img/pointer 4.svg" alt="svg" />
+                  </div>
+                  <h4 class="text_blue">Development</h4>
+                  <p class="paragraph text_blue">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam .
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===work part end === -->
+
+    <!-- ===project part start === -->
+    <section id="project">
+      <div class="container">
+        <div class="row justify-content-spacebetween">
+          <div class="col-lg-6">
+            <h3 class="common_heading text_blue">View our projects</h3>
+          </div>
+          <div class="col-lg-6 text-lg-end text-center">
+            <a class="ancor headingAncor text_blue" href="#"
+              >View More<i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project_main">
+          <div class="row">
+            <div class="col-lg-8 col-md-8">
+              <div class="img">
+                <img src="img/Card 1.png" />
+                <div class="overlay overlay1">
+                  <div class="content">
+                    <h6 class="text_white">
+                      Workhub office Webflow Webflow Design
+                    </h6>
+                    <p class="paragraph text_white">
+                      Euismod faucibus turpis eu gravida mi. Pellentesque et
+                      velit aliquam
+                    </p>
+                    <a class="ancor text_yellow" href="#"
+                      >view project<i class="fa-solid fa-arrow-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="row">
+                <div class="col-lg-12 col-sm-6 col-md-12">
+                  <div class="img">
+                    <img src="img/Card 2.png" />
+                    <div class="overlay overlay2">
+                      <div class="content">
+                        <h6 class="text_white">Unisaas Website Design</h6>
+                        <a class="ancor text_yellow" href="#"
+                          >View portfolio<i
+                            class="fa-solid fa-arrow-right-long"
+                          ></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-sm-6 col-md-12">
+                  <div class="img last_item">
+                    <img src="img/Card 3.png" />
+                    <div class="overlay overlay2">
+                      <div class="content">
+                        <h6 class="text_white">Unisaas Website Design</h6>
+                        <a class="ancor text_yellow" href="#"
+                          >View portfolio<i
+                            class="fa-solid fa-arrow-right-long"
+                          ></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===project part end === -->
+
+    <!-- ===features part start === -->
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <h4>Features</h4>
+            <h3 class="common_heading text_blue text-center">
+              Design that solves problems, one product at a time
+            </h3>
+          </div>
+        </div>
+        <div class="featuresMain">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <div class="icon">
+                    <i class="fa-solid fa-users"></i>
+                  </div>
+                  <h5 class="card-title">Uses Client First</h5>
+                  <p class="card-text paragraph text_blue">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam sed faucib turpis eu gravida mi. Pellentesque et
+                    velit aliquam sed mi.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <div class="icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <h5 class="card-title">Two Free Revision Round</h5>
+                  <p class="card-text paragraph text_blue">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam sed faucib turpis eu gravida mi. Pellentesque et
+                    velit aliquam sed mi.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <div class="icon">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                  </div>
+                  <h5 class="card-title">Template Customization</h5>
+                  <p class="card-text paragraph text_blue">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam sed faucib turpis eu gravida mi. Pellentesque et
+                    velit aliquam sed mi.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 item_bottom">
+              <div class="card">
+                <div class="card-body">
+                  <div class="icon">
+                    <i class="fa-regular fa-circle-question"></i>
+                  </div>
+                  <h5 class="card-title">24/7 Support</h5>
+                  <p class="card-text paragraph text_blue">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam sed faucib turpis eu gravida mi. Pellentesque et
+                    velit aliquam sed mi.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 item_bottom">
+              <div class="card">
+                <div class="card-body">
+                  <div class="icon">
+                    <i class="fa-solid fa-stopwatch"></i>
+                  </div>
+                  <h5 class="card-title">Quick Delivery</h5>
+                  <p class="card-text paragraph text_blue">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam sed faucib turpis eu gravida mi. Pellentesque et
+                    velit aliquam sed mi.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 item_bottom">
+              <div class="card">
+                <div class="card-body">
+                  <div class="icon">
+                    <i class="fa-solid fa-users"></i>
+                  </div>
+                  <h5 class="card-title">Hands-on approach</h5>
+                  <p class="card-text paragraph text_blue">
+                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                    aliquam sed faucib turpis eu gravida mi. Pellentesque et
+                    velit aliquam sed mi.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===features part end === -->
+
+    <!-- ===review part start === -->
+    <section id="review">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-5">
+            <div class="left">
+              <h4 class="third_heading">What our clients say about us</h4>
+              <p class="paragraph text_blue">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-7">
+            <div class="review_slider">
+              <article>
+                <h5>
+                  "The best agency we’ve worked with so far. They understand our
+                  product and are able to add new features with a great focus."
+                </h5>
+                <div class="content">
+                  <div class="img_text">
+                    <div class="img">
+                      <img src="img/client.png" alt="client" />
+                    </div>
+                    <div class="text">
+                      <h6>Jenny Wilson</h6>
+                      <p class="paragraph text_blue">Vice President</p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article>
+                <h5>
+                  "The best agency we’ve worked with so far. They understand our
+                  product and are able to add new features with a great focus."
+                </h5>
+                <div class="content">
+                  <div class="img_text">
+                    <div class="img">
+                      <img src="img/client.png" alt="client" />
+                    </div>
+                    <div class="text">
+                      <h6>Emmi Jonson</h6>
+                      <p class="paragraph text_blue">Managing Director</p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===review part end === -->
+
+    <!-- ====question part start ==== -->
+    <section id="question">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="left">
+              <h4 class="third_heading">Frequently asked questions</h4>
+              <a class="paragraph royal_blue" href="#"
+                >Contact us for more info</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    How much time does it take?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <div class="number">
+                      <h6 class="royal_blue">01</h6>
+                    </div>
+                    <p class="paragraph text_blue">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    What is your class naming convention?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <div class="number">
+                      <h6 class="royal_blue">02</h6>
+                    </div>
+                    <p class="paragraph text_blue">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    How do you communicate?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <div class="number">
+                      <h6 class="royal_blue">03</h6>
+                    </div>
+                    <p class="paragraph text_blue">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    I have a bigger project. Can you handle it?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <div class="number">
+                      <h6 class="royal_blue">04</h6>
+                    </div>
+                    <p class="paragraph text_blue">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    What is your class naming convention?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <div class="number">
+                      <h6 class="royal_blue">05</h6>
+                    </div>
+                    <p class="paragraph text_blue">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====question part end ==== -->
+
+    <!-- ===inquiry part start === -->
+    <section id="inquiry">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 p-0 col-md-6">
+            <div class="inquiryMain">
+              <div class="overlay">
+                <div class="leftPart">
+                  <h3 class="banner_heading text_white mb-4">
+                    Building stellar websites for early startups
+                  </h3>
+                  <p class="paragraph text_white">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua ut enim.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 p-0 col-md-6">
+            <div class="right">
+              <h5>Send inquiry</h5>
+              <p class="paragraph text_white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+              <form action="#">
+                <input type="text" placeholder="Your Name" />
+                <input type="email" placeholder="Your Email" />
+                <input type="url" placeholder="Paste your Figma design URL" />
+                <button>Send an Inquiry</button>
+              </form>
+              <a class="ancor text_white" href="#"
+                >Get in touch with us
+                <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===inquiry part end === -->
+
+    <!-- ===blog part start === -->
+    <section id="blog">
+      <div class="container">
+        <h3 class="common_heading text_blue">our blog</h3>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img src="img/blog1.png" class="card-img-top" alt="img" />
+              <div class="card-body">
+                <p class="paragraph text_blue pera1">19 Jan 2022</p>
+                <h5 class="card-title">
+                  How one Webflow user grew his single person consultancy from
+                  $0-100K in 14 months
+                </h5>
+                <p class="card-text paragraph text_blue pera2">
+                  See how pivoting to Webflow changed one person’s sales
+                  strategy and allowed him to attract
+                </p>
+                <a href="#" class="ancor text_blue"
+                  >Read More <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card">
+              <img src="img/blog2.png" class="card-img-top" alt="img" />
+              <div class="card-body">
+                <p class="paragraph text_blue pera1">19 Jan 2022</p>
+                <h5 class="card-title">
+                  How one Webflow user grew his single person consultancy from
+                  $0-100K in 14 months
+                </h5>
+                <p class="card-text paragraph text_blue pera2">
+                  See how pivoting to Webflow changed one person’s sales
+                  strategy and allowed him to attract
+                </p>
+                <a href="#" class="ancor text_blue"
+                  >Read More <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card">
+              <img src="img/blog3.png" class="card-img-top" alt="img" />
+              <div class="card-body">
+                <p class="paragraph text_blue pera1">19 Jan 2022</p>
+                <h5 class="card-title">
+                  How one Webflow user grew his single person consultancy from
+                  $0-100K in 14 months
+                </h5>
+                <p class="card-text paragraph text_blue pera2">
+                  See how pivoting to Webflow changed one person’s sales
+                  strategy and allowed him to attract
+                </p>
+                <a href="#" class="ancor text_blue"
+                  >Read More <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===blog part end === -->
+
+    <!-- ===contact part start === -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-6">
+            <div class="logo">
+              <img src="img/logo.png" alt="logo" />
+            </div>
+            <p class="paragraph text_white">
+              We are always open to discuss your project and improve your online
+              presence.
+            </p>
+          </div>
+          <div class="col-lg-6 offset-lg-2 col-sm-6">
+            <div class="content">
+              <h3 class="common_heading text_white">Lets Talk!</h3>
+              <p class="paragraph text_white right_pera">
+                We are always open to discuss your project, improve your online
+                presence and help with your UX/UI design challenges.
+              </p>
+              <div class="social_icon">
+                <div class="icon">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="icon">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="icon">
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="icon">
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 col-md-7">
+            <div class="email_numbers">
+              <div class="email">
+                <h5 class="ancor text_blue">Email me at</h5>
+                <a class="paragraph text_blue" href="mailto:contact@website.com"
+                  >contact@website.com</a
+                >
+              </div>
+              <div class="number">
+                <h5 class="ancor text_blue">Call us</h5>
+                <a class="paragraph text_blue" href="tel:0927 6277 28525"
+                  >0927 6277 28525</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===contact part end === -->
+
+    <!-- ===footer part start === -->
+    <section id="footer">
+      <div class="container">
+        <main>
+          <p class="paragraph text_blue">Copyright 2022, Finsweet.com</p>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </main>
+      </div>
+    </section>
+    <!-- ===footer part end === -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
